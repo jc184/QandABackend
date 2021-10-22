@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -201,7 +200,7 @@ namespace QandA.Data
                           {
                               question = q;
                               question.Answers =
-                    new List<AnswerGetResponse>();
+                                new List<AnswerGetResponse>();
                               questionDictionary.Add(question.QuestionId, question);
                           }
                           question.Answers.Add(a);
